@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<title>.cn</title>
+	<link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+	<h1>.cn</h1>
+	<p>List all meals</p>
+	<code>
+		curl /api/meals/
+	</code>
+	<p>Get meal by ID</p>
+	<code>
+		curl /api/meals/&lt;id&gt;/
+	</code>
+	<p>Random meal</p>
+	<code>
+		curl /api/meals/random/
+	</code>
+	<p>Stats</p>
+	<ul>
+		<li>
+			Total meals: {{total_meals}}
+		</li>
+	</ul>
+  </body>
+</html>
